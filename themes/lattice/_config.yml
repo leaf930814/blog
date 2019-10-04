@@ -1,0 +1,43 @@
+logo:
+    url: img/logo-square-120.png
+
+post:
+    cover: post-default.png
+    img_dir: img/post/
+
+layout:
+    feature_count: 4
+
+# busuanzi
+busuanzi: false
+
+# baidu push
+baidu_push: true
+
+# dict daily
+## http://dict.cn/foot/help2.htm
+dict_daily: false
+
+# daily words
+daily_words: true 
+
+# Content
+fancybox: false
+
+# Code Highlight theme
+# Available value:
+#    normal | night | eighties | blue | bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: normal
+
+# Gitalk
+# you can visit https://github.com/gitalk/gitalk for more details
+gitalk:
+  owner: leaf930814
+  repo: leaf930814.github.io
+  client_id: f82f526a1c32792164ec
+  client_secret: 79d5ef9dcad726e7945c109a7b9ae15f01c72035
+
+# Wechat
+wechat:
+  desc: "海海人生，无折腾不为乐。"

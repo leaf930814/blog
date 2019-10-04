@@ -1,0 +1,8 @@
+- name: GXB-UI
+  desc: 一款轻量级、组件化的前端UI组件库
+  link: https://www.gxbui.com/index.html
+  preview: https://www.gxbui.com/demo.html
+  tags:
+    - 前端组件
+    - UI
+    - Vue

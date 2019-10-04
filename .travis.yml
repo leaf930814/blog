@@ -1,0 +1,35 @@
+language: node_js
+node_js: 6
+
+addons: # Travis CI建议加的，自动更新api
+  apt:
+    update: true
+
+cache:
+  directories: 
+  - node_modules # 缓存 node_modules
+
+install:
+- npm install # 初次安装，在CI环境中，执行安装npm依赖
+
+# before_script: 
+
+script:
+- hexo g # 执行 hexo generate，把文章编译到public中
+
+after_success: # 执行script成功后，进入到public，把里面的代码提交到博客的master分支
+- cd ./public
+- git init
+- git config user.name "xLogic92"
+- git config user.email "xlogic@qq.com"
+- git add .
+- git commit -m "Update site"
+- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+
+branches:
+  only:
+  - master # CI 只针对分支 master
+
+env:
+  global: # 全局变量，上面的提交到github的命令有用到
+  - GH_REF: github.com/leaf930814/leaf930814.github.io.git
