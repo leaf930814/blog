@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://leaf930814.github.io/
-root: /
+root: /blog/
 permalink: notes/:year/:month/:day/:title/
 permalink_defaults:
 
@@ -121,7 +121,7 @@ deploy:
   type: git
   message: Super BlockMan at {{ now('YYYY-MM-DD HH:mm:ss') }}
   repo: 
-    github: git@github.com:leaf930814/leaf930814.github.io.git,master
+    github: git@github.com:leaf930814/blog.git,master
 
 # Disqus
 disqus_shortname:
@@ -135,7 +135,7 @@ ta_analytics: 53685723
 twitter: leaf930814
 github:
   user: leaf930814
-  repo: leaf930814.github.io
+  repo: blog
 
 # baidu sitemap
 baidusitemap:

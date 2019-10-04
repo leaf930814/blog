@@ -32,4 +32,4 @@ branches:
 
 env:
   global: # 全局变量，上面的提交到github的命令有用到
-  - GH_REF: github.com/leaf930814/leaf930814.github.io.git
+  - GH_REF: github.com/leaf930814/blog.git

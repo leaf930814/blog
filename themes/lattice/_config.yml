@@ -34,7 +34,7 @@ highlight_theme: normal
 # you can visit https://github.com/gitalk/gitalk for more details
 gitalk:
   owner: leaf930814
-  repo: leaf930814.github.io
+  repo: blog
   client_id: f82f526a1c32792164ec
   client_secret: 79d5ef9dcad726e7945c109a7b9ae15f01c72035
 
