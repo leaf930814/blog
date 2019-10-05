@@ -23,7 +23,6 @@
 </footer>
 
 <!-- Scripts -->
-<!-- build:js /js/bundle/core.js -->
 {{ js('js/libs/debounce') }}
 {{ js('js/libs/jquery') }}
 {{ js('js/libs/jquery.scrollPager') }}
@@ -33,8 +32,6 @@
 {{ js('js/mods/common') }}
 {{ js('js/mods/console') }}
 {{ js('js/mods/scrollPager') }}
-{{ js('js/mods/jweixin-1.0.0') }}
-<!-- endbuild -->
 
 {% if theme.gitalk %}
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>

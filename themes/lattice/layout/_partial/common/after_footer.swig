@@ -1,9 +1,7 @@
 
 {% if page.comments and theme.gitalk and theme.gitalk.client_id %}
-<!-- build:js /js/bundle/gitalk.js -->
 {{ js('js/libs/ua-parser') }}
 {{ js('js/mods/gitalk') }}
-<!-- endbuild -->
 {% endif %}
 
 {% if theme.busuanzi %}
