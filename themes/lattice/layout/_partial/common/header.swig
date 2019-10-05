@@ -1,16 +1,13 @@
-<!--
 <div class="mod-hd">
     <div class="grid">
         <div class="mod-logo">
-            LEAF BLOG
+          <a href="/">BLOG</a>
         </div>
         <span class="mod-hd-toggle" id="J_hdToggle"><i class="fa fa-bars"></i></span>
         <div class="mod-hd-main">
             <div class="mod-hd-inner"> 
                 <nav class="mod-nav">
-                    <ul class="mod-nav-list">
-                        {{ header_menu('main-nav') }}
-                    </ul>
+                   
                 </nav>
                 <div class="mod-search" id="J_search">
                     <a class="fa fa-search mod-search-ico" id="J_searchTrigger" title="{{ __('menu.search') }}"></a>
@@ -22,4 +19,3 @@
         </div>
     </div>
 </div>
--->

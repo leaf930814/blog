@@ -1,8 +1,8 @@
 title: Sentry - 及时发现Bug，提高Debug效率
 subtitle: "Sentry是一款异常监控开源工具，名字翻译过来就是“哨兵”，在Github上面的简介是：“跨平台应用监控，关注错误报告”。"
-cover: https://blockfe.github.io/misc/xlogic/post_to_improve_debug_efficiency.png
+cover: https://raw.githubusercontent.com/leaf930814/blog-misc/master/img/post_to_improve_debug_efficiency.png
 date: 2019-05-16 12:43:35
-categories: 基础设施
+categories: Web开发
 tags:
   - Sentry
   - 前端监控

@@ -3,7 +3,7 @@
   "version": "2.6.3",
   "private": true,
   "scripts": {
-    "dev": "hexo s --watch",
+    "dev": "hexo clean && hexo s --watch",
     "build": "hexo g",
     "start": "hexo",
     "clean": "rm -rf public/js/libs && rm -rf public/js/mods"
