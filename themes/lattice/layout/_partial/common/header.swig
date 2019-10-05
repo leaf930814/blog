@@ -1,7 +1,7 @@
 <div class="mod-hd">
     <div class="grid">
         <div class="mod-logo">
-          <a href="/">BLOG</a>
+          <a href="/blog/">BLOG</a>
         </div>
         <span class="mod-hd-toggle" id="J_hdToggle"><i class="fa fa-bars"></i></span>
         <div class="mod-hd-main">
