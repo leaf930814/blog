@@ -3,7 +3,7 @@ title: JS异步编程的前世今生
 subtitle: "由于JavaScript是单线程的语言，因此异步编程对于js的重要程度可想而知，可以说没有异步的js程序寸步难行。"
 cover: https://raw.githubusercontent.com/leaf930814/blog-misc/master/img/asynchronous_programming.png
 date: 2018-05-17 19:25:02
-categories: Web开发
+categories: 总结
 tags:
   - 异步编程
 author:
