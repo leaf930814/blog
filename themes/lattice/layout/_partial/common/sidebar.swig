@@ -1,4 +1,5 @@
 <aside class="mod-side" id="sidebar">
+
     <div class="mod-side-sec works"> 
         <div class="mod-side-sec-hd">
             <h2>{{ __('sidebar.works') }}</h2>
@@ -16,7 +17,6 @@
         </div> 
     </div>
 
-
     <div class="mod-side-sec favlinks"> 
         <div class="mod-side-sec-hd">
             <h2>{{ __('sidebar.favlinks') }}</h2>
@@ -33,5 +33,5 @@
             </ul>
         </div> 
     </div>
-  
+    
 </aside>
