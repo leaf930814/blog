@@ -10,3 +10,6 @@
 
 #### | 性能优化
 - [预打包Dll，实现webpack音速编译](https://segmentfault.com/a/1190000007104372)
+
+#### | Vue源码
+- [响应式原理 Observer、Dep、Watcher三者关系](https://github.com/leaf930814/blog/issues/1)
