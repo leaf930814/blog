@@ -6,6 +6,8 @@
 早前在cnblogs上写的博客，基本没怎么用了。
 [我的cnblogs博客](https://www.cnblogs.com/leaf930814/)
 
+##### | 夯实基础
+- [你真的了解回流和重绘吗【转载】](https://juejin.im/post/5c6cb7b4f265da2dae511a3d)
 
 ##### | 前端工程化
 - [前端异常监控总结](https://www.cnblogs.com/leaf930814/p/9251776.html)
